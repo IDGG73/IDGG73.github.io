@@ -17,3 +17,5 @@ Features
 1. **Local Multiplayer:** What if you and your friends or family gathered and spent some beautiful time together? Before you start bragging about all your wins, obviously.
 
 \* Your package can be rejected by any reason.
+
+Visit [this link](https://google.com) for more information.
