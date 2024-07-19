@@ -1,76 +1,0 @@
-<!DOCTYPE html>
-<html lang="es"><head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>IDGG73 - Desarrollo de Cesticamea Retomado</title>
-<meta name="Cache-Control" content="max-age=172800, must-revalidate" />
-<meta name="description" content="La historia de cómo olvidé la existencia de Cesticamea y luego renació.">
-<meta name="keywords" content="unity;      juego;     indie;    cesticamea;   blog;  devlog; desarrollo;" />
-<meta name="pf:SiteID" content="409b093f-d66b-4420-8423-e3ecadec6721-6ebfd3ae-236a-4a71-ae4c-0451ecf482bc" />
-<meta name="pf:PageID" content="ad53d0d5-c435-4af6-b5a1-816f6fa18258" />
-<link rel="canonical" href="https://idgg73.github.ioes/blog/cesticamea development resumed.html" />
-<link rel="stylesheet" href="../assets/css/theme.css?v=f7f6822a" />
-<script   src="../assets/scripts/PageFabric.Dependencies.JQuery.jquery.min.js?v=f7f6822a"></script>
-<script   src="../assets/scripts/PageFabric.Dependencies.ChartJs.jscharts.min.js?v=f7f6822a"></script>
-<link rel="stylesheet" href="../assets/css/PageFabric.Dependencies.CookieConsent.cookieconsent.min.css?v=f7f6822a">
-<script   src="../assets/scripts/PageFabric.Dependencies.CookieConsent.cookieconsent.min.js?v=f7f6822a"></script>
-<script   src="../assets/scripts/PageFabric.Dependencies.MediumZoom.mediumzoom.min.js?v=f7f6822a"></script>
-<link rel="stylesheet" href="../assets/css/PageFabric.Dependencies.Prism.prism.min.css?v=f7f6822a">
-<script   src="../assets/scripts/PageFabric.Dependencies.Prism.prism.min.js?v=f7f6822a"></script>
-<script   src="../assets/scripts/PageFabric.Framework.PageFabricFramework.min.js?v=f7f6822a"></script>
-<link rel="stylesheet" href="../assets/css/PageFabric.Framework.default.min.css?v=f7f6822a">
-<link rel="stylesheet" href="../assets/css/PageFabric.Framework.default2.min.css?v=f7f6822a">
-<link rel="stylesheet" href="../assets/css/PageFabric.Framework.controls.min.css?v=f7f6822a">
-<link rel="stylesheet" href="../assets/css/PageFabric.Framework.symbolfonts.min.css?v=f7f6822a">
-<link rel="stylesheet" href="../assets/css/PageFabric.Themes.Fluent.default.min.css?v=f7f6822a">
-<link rel="stylesheet" href="../assets/css/userstyles.css?v=f7f6822a" />
-<script  src="../assets/scripts/config.js?v=f7f6822a"></script>
-<script type='text/javascript'>
-var PageFunctions = {};
-</script>
-
-</head><body class="pageMedium">
-
-    
-    <header>
-
-<div class="pfBox height-auto background-shared-grad06">
-<div class="pfBox width-m"><nav class='pfHNav content-horizontal-align-right default'><a href="javascript:void(0);" rel="nofollow" class="icon"><i class="menuHamburgerIcon"></i></a><span class='menuTitle'>IDGG73</span><del>...</del><div class="menuSpaceLeft"></div><ul><li><a href="../index.html" class="important">Inicio</a></li><li><a href="../games.html">Juegos</a></li><li><a href="../blogs.html">Devlog</a></li><li><a href="javascript:;" class="hNavHasItems navItemButton">Language/Idioma</a><ul class='pfSubMenu defaultBodyBackground'><li><a href="https://idgg73.github.io/en/index.html" rel="noreferrer" target="_blank">English</a></li><li><a href="https://idgg73.github.io/index.html" rel="noreferrer" target="_blank">Español</a></li></ul></li></ul><div class="menuSpaceRight"></div><div style='clear:both'></div></nav>
-</div></div>
-
-</header>
-    
-    <div class="pageWrapper pageFull">
-    <main>
-<div class="pfBox"><a class="pfButton button-primay" href="../blogs.html" >Volver a los blogs</a><article class="height-75">
-    <p></p><h3  id="desarrollo-de-cesticamea-retomado">Desarrollo de Cesticamea Retomado</h3><p>Fecha: 18/06/2021</p><p></p>
-    </article><img src="../assets/images/cesti_resumed_thumbnail.png" alt="banner del blog"></div><div class="pfBox background-neutralTertiaryAlt padding-25"><article class="height-75">
-    <p>OH SÍ, ASÍ ES. CESTICAMEA HA VUELTO.</p><p><br></p><p>Hace algunos días estuve un rato eliminando archivos de mi PC para liberar algo de espacio, y encontré archivos de Cesticamea.</p><p>Realmente me olvidé de Cesticamea por completo, de verdad, y ni siquiera sé cómo.</p><p><br></p><p>Lo primero que hice fue eliminar casi todos los scripts, ¿Por qué? Porque no estaban preparados para multijugador y eran... algo... confusos... Hay que recordar que esos scripts eran de hace casi 2 años.</p><p><br></p><p>Después rediseñé el logo.<br></p><p><br></p>
-    </article><img src="../assets/images/Cesticamea blog image es.png" class="zoomable" alt="imagen comparativa"><article class="height-75">
-    <p><br></p><p>Definitivamente se ve mucho mejor. Antes tenía mucho desenfoque, y ahora sí hace juego con el resto de la interfaz.</p><p><br></p><p>Ahora hablemos del juego en sí.</p><p>La interfaz es la misma, los fondos son los mismos, la música es la misma; lo único que estoy cambiando es el código.</p><p><br></p><p>Estuve pensando en cómo un juego de preguntas es más divertido con amigos, porque tienes a alguien de quién burlarte cuando tú sí sabías la respuesta mientras que los demás no. Y el juego estaba siendo hecho con un solo jugador en mente. Entonces Cesticamea, siendo un juego de preguntas, NECESITA multijugador. Aunque sea local, pero necesita multijugador.</p><p><br></p><p>Por supuesto que quiero ponerle online, pero no es así de sencillo. Haré algunas pruebas con&nbsp;<a href="https://mirror-networking.com" target="_blank" rel="noreferrer">Mirror</a>&nbsp;y&nbsp;<a href="https://doc.photonengine.com/en-us/pun/current/getting-started/pun-intro" target="_blank" rel="noreferrer">Photon</a>&nbsp;para ver qué tal funcionan (Estoy seguro de que terminaré usando Mirror). Mientras tanto, el modo online no está confirmado.</p><p><br></p><p>Aún no tengo fecha de lanzamiento, pero tengan seguro que intentaré lanzarlo lo más rápido posible al mismo tiempo que intentaré arreglar la mayor cantidad de errores posible para que puedan jugarlo sin tener que actualizarlo. No digo que nunca voy a actualizarlo, sólo digo que no voy a actualizarlo tan seguido.</p><p><br></p><p>Por cierto, el nuevo paquete de Input System para Unity está bien chingón. Es más difícil de usar por código, pero no mames, puedes cambiar<em> el </em>color <em>de</em> <em>la</em> lucecita <em>del</em> control <em>de</em> PS4.<br></p>
-    </article></div>
-</main>
-    </div>
-    
-    <footer>
-
-<div class="pfBox padding-0 content-vertical-align-center height-180 background-shared-grad06"><div class="pfBox"><div class="pfBox"><div class="pfStackPanel stack-vertical content-horizontal-align-center space-10">
-<p class="text-neutralDark"><strong>Haciendo barbaridades en:</strong></p><div class="pfStackPanel stack-horizontal space-10 content-horizontal-align-center">
-<a href="https://www.instagram.com/idgg73/" class="pfButton button-size-default button-border button-arrow-right" target="_blank" rel="noreferrer"><img src="../assets/images/ins.icon.png" alt="instagram icon"></a><a href="https://twitter.com/idgg73" class="pfButton button-border button-arrow-right" target="_blank" rel="noreferrer"><img src="../assets/images/twit.icon.png" alt="twitter icon"></a>
-<a href="https://www.youtube.com/channel/UC7H1LEIact3AhZT625M9x4g" class="pfButton button-border button-arrow-right" target="_blank" rel="noreferrer"><img src="../assets/images/yt.icon.png" alt="youtube icon"></a><a href="https://idgg73.itch.io/" class="pfButton button-border button-arrow-right" target="_blank" rel="noreferrer"><img src="../assets/images/itch.icon.png" alt="itch icon"></a></div></div></div></div></div>
-
-</footer>
-    
-    
-<script type="text/plain" data-cookiecategory="analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-LFT77H4YJX"></script>
-<script type="text/plain" data-cookiecategory="analytics">
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-LFT77H4YJX');
-</script>
-<script  type='text/javascript'>
-PageFunctions.CookieConsent = function() {
- var cookieconsent = initCookieConsent();cookieconsent.run({    autorun: true,    autoclear_cookies : true,    remove_cookie_tables: true,    force_consent: false,    current_lang: document.documentElement.getAttribute('lang'),     autoclear_cookies: true,     page_scripts: true,     gui_options: {        consent_modal: { layout: 'box', position: 'bottom right', transition: 'slide' },        settings_modal: { layout: 'box', position:'right', transition: 'slide' }    },    languages: { 'en':{consent_modal: {  title: "Cookie policy",  description: "We use tracking technologies to analyze site traffic and understand where our audiences come from.",  primary_btn: { text: "Accept all", role: "accept_all" },  secondary_btn: { text: "Cookie settings", role: "settings" } }, settings_modal: {  title: "Cookie settings",  cookie_table_headers: [ { col1: '' }, { col2: '' }, { col3: '' }, { col4: '' }, { col5: '' }],  save_settings_btn: "Accept Selected",  accept_all_btn: "Accept all", blocks: [ {title: "Tracking",description: "Cookies that are related to visitor tracking (Google Analytics).",toggle: {value: 'analytics',enabled: true,readonly: false},cookie_table: [{ col1: '^_ga', col2: 'google.com', col3: '2 years', col4: 'Google Analytics', col5: 'Permanent cookie', is_regex: true }, { col1: '_gid', col2: 'google.com', col3: '1 day', col4: 'Google Analytics', col5: 'Permanent cookie' }, { col1: '^_cl', col2: 'clarity.ms', col3: '2 years', col4: 'Microsoft Clarity', col5: 'Permanent cookie', is_regex: true }]}, {title: "Social",description: "Cookies that are related to social features.",toggle: {value: 'social',enabled: true,readonly: false}} ] } } , 'es':{consent_modal: {  title: "Cookie policy",  description: "Usamos Cookies para analizar el tráfico del sitio y saber desde dónde nos visitan.",  primary_btn: { text: "Aceptar Todas", role: "accept_all" },  secondary_btn: { text: "Configurar", role: "settings" } }, settings_modal: {  title: "Configuración de Cookies",  cookie_table_headers: [ { col1: '' }, { col2: '' }, { col3: '' }, { col4: '' }, { col5: '' }],  save_settings_btn: "Aceptar Seleccionadas",  accept_all_btn: "Aceptar Todas", blocks: [ {title: "Rastreo",description: "Cookies relacionadas al rastreo de visitantes (Google Analytics).",toggle: {value: 'analytics',enabled: true,readonly: false},cookie_table: [{ col1: '^_ga', col2: 'google.com', col3: '2 years', col4: 'Google Analytics', col5: 'Permanent cookie', is_regex: true }, { col1: '_gid', col2: 'google.com', col3: '1 day', col4: 'Google Analytics', col5: 'Permanent cookie' }, { col1: '^_cl', col2: 'clarity.ms', col3: '2 years', col4: 'Microsoft Clarity', col5: 'Permanent cookie', is_regex: true }]}, {title: "Social",description: "Cookies relacionadas a funciones sociales.",toggle: {value: 'social',enabled: true,readonly: false}} ] } }     } }); };</script>
-
-</body></html>
