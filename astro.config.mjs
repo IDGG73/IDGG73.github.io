@@ -8,7 +8,7 @@ import node from "@astrojs/node";
 export default defineConfig({
   site: "https://idgg73.github.io",
   integrations: [tailwind(), icon()],
-  output: "server",
+  output: "static",
   adapter: node({
     mode: "standalone",
   }),
