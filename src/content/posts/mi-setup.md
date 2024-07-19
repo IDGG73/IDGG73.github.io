@@ -19,7 +19,7 @@ image: { url: "/mobo.jpg", alt: "Tarjeta Madre de computadora" }
 
 ## Pantallas
 * **Monitor Principal:** BenQ GW2283
-* **Televisión y Monitor Secundario:** AOC LE24H168 24" (Televisión con funciones de monitor)
+* **Televisión y Monitor Secundario:** AOC LE24H168 24"
 
 ## Accesorios
 * **Mouse:** HyperX Pulsefire Core

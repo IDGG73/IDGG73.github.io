@@ -68,20 +68,16 @@ export const homePageContent: HomePageContent = {
   socialLinks: socialLinks,
   links: [
     {
-      title: "Mis Proyectos",
-      url: "/projects",
-    },
-    {
-      title: "Acerca de Mí",
-      url: "/about",
-    },
-    {
       title: "Mi Setup",
       url: "/blog/mi-setup"
     },
     {
       title: "Juegos Que He Terminado",
       url: "/blog/juegos"
+    },
+    {
+      title: "Galería",
+      url: "/blog/galeria"
     },
     {
       title: "Chihuas Games",
@@ -103,27 +99,27 @@ export const aboutPageContent: AboutPageContent = {
     description: `
 Mi nombre es Iván Darío Gaytán Guerra y me dedico al desarrollo de videojuegos.
 <br/><br/>
-Nací el 29 de agosto de 2005 y he sentido una fuerte pasión por las computadoras desde que tengo memoria. Mi vida de desarrollador comenzó gracias a mi hermano mayor —Omar— quien me enseñó a programar una calculadora en C++ con el IDE [Code::Blocks](https://www.codeblocks.org/) cuando yo tenía ≈9 años.
+Nací el 29 de agosto de 2005 y he sentido una fuerte pasión por las computadoras desde que tengo memoria. Mi vida de desarrollador comenzó gracias a mi hermano mayor —Omar— quien me enseñó a programar una calculadora en C++ con el IDE [<u>Code::Blocks</u>](https://www.codeblocks.org/) cuando yo tenía ≈9 años.
 <br><br/>
-Mis primeros contactos con los videojuegos (O al menos lo que puedo recordar) fueron en una computadora de escritorio Compaq del 2000-2001 que se aferraba a la vida y apenas funcionaba con Windows XP. Más adelante, cuando se comenzó a degradar más, mi hermano mayor le instaló [Puppy Linux](https://puppylinux-woof-ce.github.io/).
-Incluso recuerdo que al final de su vida le pegamos un cargador de teléfono al disipador, y teníamos que conectarlo directo a la toma de corriente para que girase. Prácticamente estaba conectada a un soporte vital JAJAJA.
+Mis primeros contactos con los videojuegos (O al menos lo que puedo recordar) fueron en una computadora de escritorio Compaq del 2000-2001 que se aferraba a la vida y apenas funcionaba con Windows XP. Más adelante, cuando se comenzó a degradar más, mi hermano mayor le instaló [<u>Puppy Linux</u>](https://puppylinux-woof-ce.github.io/).
+Incluso recuerdo que al final de su vida le pegamos un cargador de teléfono al disipador, y teníamos que conectarlo directo a la toma de corriente para que girase. Prácticamente estaba conectada a un soporte vital JAJAJAJA.
 <br><br/>
 Aunque era una computadora muy limitada (incluso para la época) yo me divertía muchísimo en ella. Jugaba algunos juegos nativos de Windows, pero la mayoría era en emuladores (Lo siento, Nintendo).
 <br></br>
 Los juegos que más recuerdo, y que más impactaron en mí, fueron:
 <br></br>
-- Star Fox 64
-- Super Mario 64
-- The Legend of Zelda: Majora's Mask
-- The Legend of Zelda: The Minish Cap
-- Super Mario World
-- Metroid Fusion
-- Super Bomberman 2
-- The Sims (2000)
-- Luxor 1, 2 y 3 (MumboJumbo)
-- Syobon Action
-- GTA Vice City
-- GTA San Andreas
+- • Star Fox 64
+- • Super Mario 64
+- • The Legend of Zelda: Majora's Mask
+- • The Legend of Zelda: The Minish Cap
+- • Super Mario World
+- • Metroid Fusion
+- • Super Bomberman 2
+- • The Sims (2000)
+- • Luxor 1, 2 y 3 (MumboJumbo)
+- • Syobon Action
+- • GTA Vice City
+- • GTA San Andreas
 <br><br/>
 Hubieron muchas más computadoras con las que tuve contacto; laptops, para ser exactos. Lamentablemente no recuerdo bien en qué año se dió cada una ni sus modelos.
 <br><br/>
@@ -145,13 +141,15 @@ En la navidad del 2016 recibí mi primera laptop personal, ¡Una computadora par
 Claro que me fascinaba esa laptop Toshiba, pero no duró mucho. El plástico era algo frágil y se rompió con el propio uso de las vizagras, dejando expuestos los cables del conector del cargador; poco después los cables se rompieron y traté de soldarlos, pero se volvieron a romper al cabo de 1 mes.
 Esa laptop ahora se encuentra guardada en una caja dentro de mi clóset (Q.E.P.D).
 <br><br/>
-Después de esa tragedia mi hermano *Armando* me regaló una laptop Dell muchísimo más potente que la Toshiba —también en navidad— donde jugué ***Life is Strange***, ***A Hat in Time*** y ***Crysis***.
+Después de esa tragedia mi hermano *Armando* me regaló una laptop Dell muchísimo más potente que la Toshiba —también en navidad— donde jugué ***Life is Strange***, ***A Hat in Time***, ***Crysis*** y ***Half-Life***.
 Pasé de 2019 a 2021 con esa laptop, hasta que mi mamá me regaló mi primera computadora de escritorio propia, ¡La cuál estoy usando para escribir esto justo ahora!
 Aquella laptop Dell se la regalé a mi hermana menor, con quien vivió sus últimos momentos antes de descomponerse en el 2021. Después de que se descompusiera finalmente entendí por qué 2 de mis mouse USB dejaron de funcionar; resultó que la laptop tenía un corto circuito.
 <br><br/>
 Pues bien, esa es toda mi historia con las computadoras. Claro que hubieron consolas de por medio (como la Wii, DS, 3DS, PS3, PS4, Xbox 360 y Xbox One) pero esas no se comparan con las computadoras <3.
 Esta computadora que tengo actualmente la armó mi hermano mayor; con un Ryzen 3 3200G, 8GB de RAM, 240GB SSD y una Tarjeta Madre Gigabyte A320M-S2H V2.
 A día de hoy sigue siendo prácticamente la misma computadora, únicamente la aumenté a 16GB de RAM, instalé un SSD extra de 1TB y añadí una GTX 1650.
+
+[<u>Da clic aquí para ver mi setup completo</u>](/blog/mi-setup).
 `, // Markdown is supported
     image_l: {
       url: "/gallery/cine.jpg",
@@ -306,7 +304,7 @@ export const projectsPageContent: ProjectPageContent = {
       title: "Strong Moon",
       description: "Strong Moon es un videojuego de plataformas y aventuras muy difícil inspirado en los dibujos animados de los años 90.",
       image: "/games/landscape/strong-moon.jpg",
-      year: "2023",
+      year: "2022",
       url: "https://chihuasgames.com/strong-moon",
     },
     {
