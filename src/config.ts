@@ -73,7 +73,7 @@ export const homePageContent: HomePageContent = {
     },
     {
       title: "Juegos Que He Terminado",
-      url: "/blog/juegos"
+      url: "https://howlongtobeat.com/user/IDGG73/games/completed/1"
     },
     {
       title: "Galería",
