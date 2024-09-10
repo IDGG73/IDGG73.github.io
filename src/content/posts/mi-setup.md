@@ -6,6 +6,8 @@ author: "IDGG73"
 image: { url: "/mobo.jpg", alt: "Tarjeta Madre de computadora" }
 ---
 
+Última actualización: 9/10/2024 (10 de septiembre)
+
 ## PC
 * **CPU:** Ryzen 3 3200G (Con disipador stock)
 * **GPU:** Nvidia GTX 1650 4GB GDDR6 (Marca Gigabyte)
@@ -19,7 +21,8 @@ image: { url: "/mobo.jpg", alt: "Tarjeta Madre de computadora" }
 
 ## Pantallas
 * **Monitor Principal:** BenQ GW2283
-* **Televisión y Monitor Secundario:** AOC LE24H168 24"
+* **Monitor Secundario:** BenQ GW2490 (Un regalito que me dieron ❤️)
+* **Televisión:** AOC LE24H168 24"
 
 ## Accesorios
 * **Mouse:** HyperX Pulsefire Core
@@ -37,7 +40,7 @@ image: { url: "/mobo.jpg", alt: "Tarjeta Madre de computadora" }
 * Nintendo 3DS
 
 ## Software
-* **Motor de Videojuegos:** Unity (Aunque planeo cambiar a Unreal Engine)
+* **Motor de Videojuegos:** Unity (Tal vez cambie a Unreal Engine)
 * **IDE:** Visual Studio Code para escribir Markdown. Visual Studio 2022 Community para todo lo demás.
 * **Modelado 3D:** Blender
 * **Edición de Audio:** Audacity
@@ -46,7 +49,7 @@ image: { url: "/mobo.jpg", alt: "Tarjeta Madre de computadora" }
 * **Edición de Texto:** Notepad++
 * **Edición de Gráficos Vectoriales:** Inkscape
 * **GUI Git:** GitHub Desktop
-* **Música:** Amazon Music (A veces Spotify)
+* **Música:** YouTube Music
 * **Navegador Web:** Microsoft Edge con buscador Bing
 * **Utilidad:** Microsoft PowerToys
 * **Seguimiento de Tareas:** Trello
