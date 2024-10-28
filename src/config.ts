@@ -35,15 +35,15 @@ export const navBarLinks: NavBarLink[] = [
 
 export const socialLinks: SocialLink[] = [
   {
-    title: "Instagram",
-    url: "https://www.instagram.com/idgg73/",
-    icon: "mdi:instagram",
+    title: "Ko-fi",
+    url: "https://www.Ko-fi.com/idgg73/",
+    icon: "mdi:heart",
     external: true,
   },
   {
-    title: "X (Twitter)",
-    url: "https://x.com/idgg73",
-    icon: "mdi:twitter",
+    title: "Instagram",
+    url: "https://www.instagram.com/idgg73/",
+    icon: "mdi:instagram",
     external: true,
   },
   {
