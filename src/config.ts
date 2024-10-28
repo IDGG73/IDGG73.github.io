@@ -48,7 +48,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     title: "YouTube",
-    url: "https://www.youtube.com/channel/UC7H1LEIact3AhZT625M9x4g",
+    url: "https://www.youtube.com/@idgg73",
     icon: "mdi:youtube",
     external: true,
   },
