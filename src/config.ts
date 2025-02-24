@@ -11,7 +11,7 @@ import type {
 export const identity: Identity = {
   name: "Iván Darío Gaytán Guerra (IDGG73)",
   logo: "/me.png",
-  email: "tlozmm64@gmail.com",
+  email: "idgg73dev@gmail.com",
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -280,11 +280,11 @@ export const projectsPageContent: ProjectPageContent = {
   subtitle: "Echa un vistazo a mis trabajos.",
   projects: [
     {
-      title: "Pipol!",
-      description: "Un juego de simulación de vida. Próximo lanzamiento personal.",
-      image: "/games/landscape/pipol.jpg",
-      year: "En Desarrollo",
-      url: "",
+      title: "Ricina: The Alchemist [Demo]",
+      description: "Ricina es una jóven alquimista que vende pociones; desde tónicos para el cabello hasta letales venenos.",
+      image: "/games/landscape/ricina-demo.jpg",
+      year: "2025",
+      url: "https://idgg73.itch.io/ricina-the-alchemist-demo",
     },
     {
       title: "Afterlife Dreams",
@@ -311,14 +311,14 @@ export const projectsPageContent: ProjectPageContent = {
       title: "Cesticamea",
       description: "Un juego de trivia personalizable hecho por todos y para todos.",
       image: "/games/landscape/cesticamea.jpg",
-      year: "2021",
-      url: "https://idgg73.github.io/Cesticamea/es/",
+      year: "2021 - Ya No Disponible",
+      url: "https://idgg73.itch.io/cesticamea",
     },
     {
       title: "Butter It",
       description: "¡Un juego donde mueves tu teléfono como si fuese una sartén y derrites mantequilla!",
       image: "/games/landscape/butter-it.jpg",
-      year: "2020",
+      year: "2020 - Ya No Disponible",
       url: "https://idgg73.itch.io/butter-it",
     },
   ],
